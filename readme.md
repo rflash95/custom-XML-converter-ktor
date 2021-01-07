@@ -44,7 +44,7 @@ install(ContentNegotiation) {
   register(ContentType.Application.Xml, XmlConverter())  
 }
 ```
-5.  Uses the "content-type" header to find the correct receive converter
+5.  Uses the "Accept" header to find the matching send converter
 - XML
 ```vim
 curl \  

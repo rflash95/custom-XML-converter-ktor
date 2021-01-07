@@ -35,9 +35,6 @@ fun Application.module(testing: Boolean = false) {
             call.respond(mapOf("hello" to "world"))
         }
 
-        get("/json/jackson") {
-            call.respond(mapOf("hello" to "world"))
-        }
     }
 }
 
